@@ -1,5 +1,6 @@
 #me-image {
     width: 350px;
+    height: 467px;
 }
 .me-image-div {
     display: flex;
@@ -22,6 +23,8 @@ body {
 }
 a {
     color: #2E8B57;
+    text-decoration: none;
+    font-weight: bolder;
 }
 .section-header {
     text-align: center;
@@ -61,7 +64,7 @@ section {
 }
 
 p {
-    margin: 0rem;
+    margin: 0;
 }
 .about-div {
     /*padding: 0 3rem 0 0;*/
@@ -80,10 +83,19 @@ h1 {
     
 }
 
-.main-header-div > p,  h1 {
+.main-header-div > h3,  h1 {
     font-family: cursive, sans-serif;
 }
 
 .wrapper {
 
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: purple;
+}
+.main-header-div > h3 {
+    margin: 0;
 }
