@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>Portfolio Web Page</title>
+        <title>Jason Lee's Portfolio Web Page</title>
         <link
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     rel="stylesheet"
@@ -12,66 +12,104 @@
         <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     <body>
-<header>
-    <div>
+        <!--Start of main header-->
+<header class="main-header">
+    <div class="wrapper main-header-div">
         <h1>Jason Lee</h1>
         <p>Software Developer</p>
     </div>
 </header>
+<!--End of main header-->
+
+<!--Beginning of main content of me-->
+
 <main>
-    <div>
+    <div class="wrapper">
         <article>
-            <section>
+<!--Beginning of intro section of me-->
+
+            <section class="intro-section">
+                <div class="me-image-div">
+                    <img src="images/me-image.jpg" alt="Jason Lee smiling" id="me-image">
+                </div>
+                
                 <header>
-                    <h2>Greetings, I'm Jason Lee</h2>
+                    <h2 class="section-header">Greetings, I'm Jason Lee</h2>
                 </header>
-                <p>I'm a software developer based in Las Vegas.</p>
-                <p>AS a hardcore coder, I want to:</p>
-                <ul>
-                    <li>continue learning new skills, ways of thinking, new technology, etc.</li>
-                    <li></li>
-                    <li>Work with other serious coders to create awesome projects.</li>
-                </ul>
+                    <div class="content-div">
+                        <p>I'm a software developer based in Las Vegas.</p>
+                        
+                        <br>
+
+                    <p>As a hardcore coder, I want to:</p>
+                    <ul>
+                        <li>continue learning new skills, ways of thinking, new technology, etc.</li>
+                        <li>Write the cleanest, most efficient code possible</li>
+                        <li>Work with other serious coders to create awesome projects.</li>
+                        <li>Dedicate my life and skills to companies</li>
+                    </ul>
+                    <p>Please take a look at my work and website and feel free to <a href="#contact-section">contact me.</a></p>
+                    </div>
+                    
+
+                
             </section>
+<!--End of intro section of me-->      
             
             <hr>
-    
-            <section>
-                <header><h2>About Jason</h2></header>
-                <p>I got into coding out of curiousity 4 years ago on KhanAcademy, and fell in love with it.
-                     All my are personal strengths are strengths in coding. I feel obsession, hard work, dedication, attention to detail,
-                      wanting to know why things work the way they work, and being up to date are needed for coding, and I bring all 
-                      that to the table.</p>
-                      <br> 
-                      <p>I have completed projects from The Odin Project <a>here</a>, but I'm currently a student
-                       for Chegg Skills.</p>
-                       <br>
-                       <p>Reach out if you're looking for an extra hand. I'll work on any project of any size and love contributing
-                         and learning.</p>
-            </section>
-    
-            <hr>
-    
-            <section>
+
+    <!--Beginning of about me section-->
+            <section class="about-section">
                 <header>
-                    <h2>Contact Jason</h2>
+                    <h2 class="section-header">About Jason</h2>
                 </header>
-                <p>Look forward to working with you!  Feel free to contact me below:</p>
-                <nav>
-                    <ol>
-                        <li><a>LinkedIn</a></li>
-                        <li><a>GitHub</a></li>
-                    </ol>
-                </nav>
+               <div class="content-div about-div">
+                <p>I got into coding out of curiousity 4 years ago on KhanAcademy, and fell in love with it.
+                    All my are personal strengths are strengths in coding. I feel obsession, hard work, dedication, attention to detail,
+                     wanting to know why things work the way they work, and being up to date are needed for coding, and I bring all 
+                     that to the table.</p>
+                     <br> 
+                     <p>I have completed projects from The Odin Project <a href="https://github.com/TylerDurden16">here</a>, but I'm currently a student
+                      for Chegg Skills.</p>
+                      <br>
+                      <p>Reach out if you're looking for an extra hand. I'll work on any project of any size and love contributing
+                        and learning. I work for much less and as often as I can, because it's about 
+                        the company and the work, not the paycheck.</p>
+               </div>
+                    
+                
             </section>
+   <!--End of about me section--> 
+            <hr>
+    <!--Beginning of contact section-->
+            <section id="contact-section">
+                <header>
+                    <h2 class="section-header">Contact Jason</h2>
+                </header>
+ <div class="content-div">
+    <p>Look forward to working with you! Feel free to contact me below:</p>
+    <nav>
+        <ol>
+            <li><a href="https://www.linkedin.com/feed/">LinkedIn</a></li>
+            <li><a href="https://github.com/jlee55504">GitHub</a></li>
+        </ol>
+    </nav>
+ </div>                 
+            </section>
+<!--End of contact section-->
+
         </article>
     </div>
     
 </main>
-<footer>
-    <div>
+<!--End of main content of me-->
 
+<!--Start of ending footer-->
+<footer class="end-footer">
+    <div class="wrapper">
+        <p>&copy Jason Lee</p>
     </div>
 </footer>
+<!--End of ending footer-->
     </body>
 </html>
