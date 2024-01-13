@@ -1,0 +1,1 @@
+This is a web page about me for employers to see my info and skills/projects.
